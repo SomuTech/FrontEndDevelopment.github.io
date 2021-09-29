@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+        <title>Div Tags </title>
+        <style>
+            body{
+                margin: 20px 100px 10px 100px;
+                background-color:rgba(28, 20, 94, 0.891);
+            }
+            div{
+                color:white;
+            }
+            #main{
+                background-color: rgb(25, 79, 126);
+                width: 99%;
+                height: 660px;
+                padding: 35px;
+            }
+            #content-1{
+                border: 3px solid rgb(29, 28, 28);
+                width: -40px;
+                height: 100px;
+                background-color: rgba(35, 40, 144, 0.87);
+            }
+            #content-2,#content-3,#content-4{
+                width: 210px;
+                height: 550px;
+                background-color: rgba(10, 10, 49, 0.952);
+            }
+            #content-2{
+                padding: 0px;
+                margin-top: -40px;
+            }
+            #img{
+                margin-top: 10px;
+                width:170px;
+                height:100px;
+            }
+            #content-3{
+                width: 700px;
+                height: 550px;
+                margin-left: 250px;
+                margin-top: -547px;
+            }
+            #text{
+                width:135px;
+                height:60px;
+                border: 1px solid rgb(137, 133, 133);
+                background-color: rgb(24, 24, 39);
+            }
+            #video{
+                width:265px;
+                height:125px;
+            }
+            #audio{
+                width:165px;
+                height:30px;
+                border: 0.5px solid black;
+            }
+            #content-4{  
+                float: right;
+                background-color: rgba(10, 10, 49, 0.952);
+                padding: 1px;
+                margin-top: -547px;
+                width: 335px;
+            }
+            h1{
+                text-align: center;
+                font-family: Arial, Helvetica, sans-serif;
+                color: white;
+            }
+            h4{
+                text-align: center;
+                font-family: Arial, Helvetica, sans-serif;
+                color: aliceblue;
+            }
+           
+        </style>
+    </head>
+    <body>
+        <div id="main">
+            <div id="content-1">
+                <h1>Box Office Movie Review</h1>
+                <h4 style="margin-top: -15px;">Movie Name: <b style="color: rgb(194, 81, 61); font-size:25px"><b>JERSEY</b></b></h4>
+            </div>
+            <br><br>
+
+            <div id="content-2">
+                <center style="margin-top: 15px;">
+                    <div id="img">
+                        <img src="media/img/j4.jfif" id="img">
+                    </div>
+                    <br>
+                    <div id="img">
+                        <img src="media/img/j1.jfif" id="img">
+                    </div>
+                    <br>
+                    <div id="img">
+                        <img src="media/img/j2.jfif" id="img">
+                    </div>
+                    <br>
+                    <div id="img">
+                        <img src="media/img/j3.jfif" id="img">
+                    </div>
+                    <p>Images</p>
+                </center>
+            </div>
+            <div id="content-3">
+                <p style="margin-top: -500px; font-size:25px; font-family: Arial; margin-left:15px;">
+                    <i>Movie Name</i><br>
+                    <i>Critic's Rating</i><br>
+                    <i>Actor</i><br>
+                    <i>Director</i> <br>
+                  </p>
+                
+                  <p style=" margin-left: 200px; margin-top:-140px; font-size:25px; font-family: Arial;">
+                    <b>: Jersey</b><br>
+                    <b>: **** 4.5/5</b><br>
+                    <b> : Nani</b><br>
+                    <b>: Gowtam Tinnanuri</b><br>
+                  </p>
+                
+                  <h3 style="color:rgb(113, 138, 138); font-size:20px;margin-left:15px;"> Cast & Crew:</h3>
+                  <p style=" font-size: 20px; margin-left:15px;">
+                    Satyaraj<br />
+                    Shraddha Srinath<br />
+                    Rao Ramesh<br />
+                    etc...
+                  </p>
+                  <h3 style="color:rgb(113, 138, 138); font-size:20px;margin-left:15px;">Story:</h3>
+                  <p style=" margin-right: 55px; font-size: 20px; font-family:arial;margin-left:15px;">
+                    <b> Arjun <a href="https://en.wikipedia.org/wiki/Nani_(actor)">(Nani)</a></b>is a 36 year old, ex-Ranji best batsman
+                    whose career fails to
+                    take off. But what happens when he decides to make it to the <b>Indian
+                      cricket</b> team despite his age?
+                  </p>
+            </div>
+            <div id="content-4">
+                <center style="margin-top: 15px;">
+                    <p>Highlights</p>
+                    <div id="text">
+                        <ul style="margin-top: 0px; text-align:left">
+                            <li>Story</li>
+                            <li>Music</li>
+                            <li>Performance</li>
+                        </ul>
+                    </div>
+                    <p>Video - Teaser</p>
+                    <div id="video">
+                        <video id="video" controls>
+                            <source src="media/video/jersey2.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                    <p>Video - Trailer</p>
+                    <div id="video">
+                        <video id="video" controls>
+                            <source src="media/video/j3.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                    <p>Audio</p>
+                    <div id="audio">
+                        <audio id="audio" controls>
+                            <source src = "media/audio/Spirit Of Jersey - SenSongsMp3.Co.mp3" type = "audio/mp3" />
+                         </audio>
+                    </div>
+                </center>
+            </div>
+        </div>
+    </body>
+</html>
